@@ -5,25 +5,12 @@ print("Enter your choice")
 userpick=input()
 print("Now it is the computer turn")
 print("The computer choose")
-cpu=["Rock","Paper","Scissor"]
-computerpick=random.choice(cpu)
-print(computerpick)
-while computerpick == userpick:
-    print("It is a tie")
-    print("pick again")
-    userpick=input()
-    print("Computer's Turn")
-    computerpick=random.choice(cpu)
-    print(computerpick)
-if userpick == "Scissor" and computerpick == "Rock":
+if userpick == "Scissor":
+    print("Rock")
     print("You lose. Better luck next time")
-if userpick == "Scissor" and computerpick == "Paper":
-    print("Great Job. You won!!!")
-if userpick == "Paper" and computerpick == "Scissor":
+if userpick == "Paper":
+    print("Scissor")
     print("You lose. Better luck next time")
-if userpick == "Paper" and computerpick == "Rock":
-    print("Great Job. You won!!!")
-if userpick == "Rock" and computerpick == "Paper":
+if userpick == "Rock":
+    print("Paper")
     print("You lose. Better luck next time")
-if userpick == "Rock" and computerpick == "Scissor":
-    print("Great Job. You won!!!")
