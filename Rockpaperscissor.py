@@ -13,6 +13,7 @@ while computerpick == userpick:
     print("pick again")
     userpick=input()
     print("Computer's Turn")
+    computerpick=random.choice(cpu)
     print(computerpick)
 if userpick == "Scissor" and computerpick == "Rock":
     print("You lose. Better luck next time")
