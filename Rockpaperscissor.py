@@ -1,5 +1,3 @@
-import random
-
 print("Rock Paper Scissor!!!")
 print("Enter your choice")
 userpick=input()
